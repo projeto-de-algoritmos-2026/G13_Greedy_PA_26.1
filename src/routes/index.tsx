@@ -130,7 +130,7 @@ function Index() {
           <MetricCard label="Total de tickets" value={metrics.total} icon={<TicketIcon className="h-4 w-4" />} />
           <MetricCard label="Tempo total (dias)" value={metrics.totalTime} icon={<Clock className="h-4 w-4" />} />
           <MetricCard label="No prazo" value={metrics.onTime} accent="success" icon={<CheckCircle2 className="h-4 w-4" />} />
-          <MetricCard label="Atrasados" value={metrics.late} accent="danger" icon={<AlertTriangle className="h-4 w-4" />} />
+          <MetricCard label="Irão atrasar" value={metrics.late} accent="danger" icon={<AlertTriangle className="h-4 w-4" />} />
         </section>
 
         <div className="grid gap-6 lg:grid-cols-[380px_1fr]">
