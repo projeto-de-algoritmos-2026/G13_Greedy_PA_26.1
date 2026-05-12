@@ -2,8 +2,10 @@
 
 ## Objetivo
 
-Projeto desenvolvido para a disciplina de Projeto de Algoritmos (PA), utilizando algoritmos gulosos (Greedy) para resolução de problemas propostos na matéria.
+Projeto desenvolvido para a disciplina de Projeto de Algoritmos (PA), utilizando o algoritmo de EDF (Atraso Máximo) para ordenar tickets de suporte abertos para o time de TI.
 
+## Vídeo
+ [Apresentação Amanda e Arthur](https://youtu.be/GCqaffmNY-s)
 
 ## Alunos
 - Amanda Gonçalves Sobrinho Abreu (211030925)
@@ -15,15 +17,12 @@ A aplicação possui interface web desenvolvida com React e TypeScript, permitin
 
 O projeto utiliza Vite para desenvolvimento frontend e Bun como gerenciador de pacotes/runtime.
 
-
-
 ##  Pré-requisitos
 
 Antes de executar o projeto, é necessário ter instalado:
 
-- Node.js 20+
+- Node.js 22+
 - Bun
-- Git
 
 ### Instalar dependências
 
